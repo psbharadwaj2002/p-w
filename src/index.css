@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #111111;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 60px;
+
 }
 
 code {
