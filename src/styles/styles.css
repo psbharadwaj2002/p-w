@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   font-size: 16px;
+  margin: 10px 60px;
 }
 nav .navbar-brand {
   color: #FFB800 !important;
@@ -20,12 +27,42 @@ nav .navbar-nav li a:hover {
   filter: brightness(100%);
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFB800;
+  padding: 20px 0 3px 0;
+  color: black;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+.footer .links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.footer h3 {
+  font-family: "Permanent Marker", cursive !important;
+  font-size: 36px;
+}
+.footer p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgb(69, 69, 69);
+}
+
 @media only screen and (max-width: 620px) {
-  body {
-    padding: 10px 20px;
-  }
   nav {
     font-size: 10px;
+    margin: 10px 20px;
   }
   nav .navbar-brand {
     font-size: 17px;

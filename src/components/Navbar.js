@@ -25,22 +25,22 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="#">
+                <Link className="nav-link" aria-current="page" to="/">
                   HOME
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#about">
-                  ABOUT
+                <Link className="nav-link" to="/aboutMe">
+                  ABOUT ME
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/projects">
                   PROJECTS
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/contact">
                   CONTACT
                 </Link>
               </li>

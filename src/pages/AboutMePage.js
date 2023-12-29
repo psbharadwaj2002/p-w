@@ -1,14 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import FooterComponent from "../components/FooterComponent";
 
-function Home() {
+function AboutMePage() {
   return (
     <div>
       <Navbar />
-      <FooterComponent />
+      <p style={{ color: "white" }}>About Me</p>
     </div>
   );
 }
 
-export default Home;
+export default AboutMePage;
