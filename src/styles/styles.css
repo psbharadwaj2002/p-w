@@ -117,6 +117,56 @@ nav .navbar-nav li a:hover {
   right: -40px;
 }
 
+.aboutComponent {
+  margin: 0 60px;
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.aboutComponent div {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.aboutComponent div img {
+  height: 420px;
+  width: 370px;
+  border-radius: 10px;
+}
+.aboutComponent div .about_skill {
+  display: flex;
+  flex-direction: column;
+}
+.aboutComponent div .about_skill .about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.aboutComponent div .about_skill .about .about_me_matter {
+  max-width: 400px;
+}
+.aboutComponent div .about_skill .about .about_me_matter p {
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+.aboutComponent div .title {
+  display: flex;
+  color: white;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 20px;
+}
+.aboutComponent div .title div {
+  width: 80px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
 @media only screen and (max-width: 620px) {
   nav {
     font-size: 10px;
@@ -129,6 +179,7 @@ nav .navbar-nav li a:hover {
     transform: scale(1.1);
   }
   nav .navbar-nav li a:hover {
+    color: #F5E9CF !important;
     transform: scale(1);
     filter: brightness(100%);
   }
