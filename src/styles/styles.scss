@@ -60,7 +60,7 @@ nav {
     background-color: #FFB800;
     padding: 20px 0 3px 0;
     color: black;
-    width: 100vw;
+    width: 100%;
 
 
 
@@ -171,17 +171,23 @@ nav {
 // ********************************************************************************************************************************
 
 .aboutComponent {
-
     margin: 0 60px;
-    margin-top: 180px;
+    margin-top: 210px;
     display: flex;
     justify-content: center;
+    // flex-wrap: wrap;
+    align-items: center;
+    // width: 100%;
     margin-bottom: 100px;
+    // padding: 10px;
 
-    div {
+    .container {
         display: flex;
         flex-wrap: wrap;
         column-gap: 50px;
+        margin: 0 auto;
+        justify-content: center;
+        row-gap: 50px;
 
 
         img {
@@ -193,6 +199,8 @@ nav {
         .about_skill {
             display: flex;
             flex-direction: column;
+            // align-items: center;
+            justify-content: center;
 
             .about {
                 display: flex;
@@ -200,12 +208,40 @@ nav {
                 flex-direction: column;
 
                 .about_me_matter {
-                    max-width: 400px;
+                    max-width: 500px;
 
                     p {
                         margin-top: 20px;
                         color: white;
                         font-size: 12px;
+                    }
+                }
+            }
+
+            .skill {
+                margin-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+                .skills {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    column-gap: 10px;
+
+                    ul {
+                        color: white;
+                        list-style: none;
+                    }
+
+                    ul li::before {
+                        content: "\2022";
+                        color: #FFB800;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
                     }
                 }
             }

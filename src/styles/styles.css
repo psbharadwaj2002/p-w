@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0ps;
   padding: 0px;
@@ -38,7 +39,7 @@ nav .navbar-nav li a:hover {
   background-color: #FFB800;
   padding: 20px 0 3px 0;
   color: black;
-  width: 100vw;
+  width: 100%;
 }
 .footer .links {
   display: flex;
@@ -124,40 +125,70 @@ nav .navbar-nav li a:hover {
 
 .aboutComponent {
   margin: 0 60px;
-  margin-top: 180px;
+  margin-top: 210px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 100px;
 }
-.aboutComponent div {
+.aboutComponent .container {
   display: flex;
   flex-wrap: wrap;
   -moz-column-gap: 50px;
        column-gap: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  row-gap: 50px;
 }
-.aboutComponent div img {
+.aboutComponent .container img {
   height: 420px;
   width: 370px;
   border-radius: 10px;
 }
-.aboutComponent div .about_skill {
+.aboutComponent .container .about_skill {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
-.aboutComponent div .about_skill .about {
+.aboutComponent .container .about_skill .about {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
-.aboutComponent div .about_skill .about .about_me_matter {
-  max-width: 400px;
+.aboutComponent .container .about_skill .about .about_me_matter {
+  max-width: 500px;
 }
-.aboutComponent div .about_skill .about .about_me_matter p {
+.aboutComponent .container .about_skill .about .about_me_matter p {
   margin-top: 20px;
   color: white;
   font-size: 12px;
 }
-.aboutComponent div .title {
+.aboutComponent .container .about_skill .skill {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.aboutComponent .container .about_skill .skill .skills {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.aboutComponent .container .about_skill .skill .skills ul {
+  color: white;
+  list-style: none;
+}
+.aboutComponent .container .about_skill .skill .skills ul li::before {
+  content: "•";
+  color: #FFB800;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.aboutComponent .container .title {
   display: flex;
   color: white;
   align-items: center;
@@ -165,7 +196,7 @@ nav .navbar-nav li a:hover {
        column-gap: 30px;
   font-size: 20px;
 }
-.aboutComponent div .title div {
+.aboutComponent .container .title div {
   width: 80px;
   height: 2px;
   border-radius: 5px;
