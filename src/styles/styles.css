@@ -129,7 +129,7 @@ nav .navbar-nav li a:hover {
     transform: scale(1.1);
   }
   nav .navbar-nav li a:hover {
-    transform: scale(1.1);
+    transform: scale(1);
     filter: brightness(100%);
   }
 }/*# sourceMappingURL=styles.css.map */
