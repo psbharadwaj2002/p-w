@@ -111,7 +111,14 @@ nav {
 
         a {
             text-decoration: none;
+            transition: transform .2s;
             color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            transform: scale(1.5);
+            // color: #FFB800;
         }
     }
 

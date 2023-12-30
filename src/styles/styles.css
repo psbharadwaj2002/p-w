@@ -79,7 +79,12 @@ nav .navbar-nav li a:hover {
 }
 .introComponent .icons a {
   text-decoration: none;
+  transition: transform 0.2s;
   color: white;
+}
+.introComponent .icons a:hover {
+  text-decoration: none;
+  transform: scale(1.5);
 }
 .introComponent .img_name {
   display: flex;
