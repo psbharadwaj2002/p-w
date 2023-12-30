@@ -72,6 +72,11 @@ nav .navbar-nav li a:hover {
   flex-direction: column;
   justify-content: space-evenly;
 }
+.introComponent .icons div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
 .introComponent .icons a {
   text-decoration: none;
   color: white;

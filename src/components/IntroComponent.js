@@ -6,20 +6,22 @@ function IntroComponent() {
   return (
     <div className="introComponent">
       <div className="icons">
-        <a
-          href="https://github.com/psbharadwaj2002"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <GithubOutlined />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <LinkedinFilled />
-        </a>
+        <div>
+          <a
+            href="https://github.com/psbharadwaj2002"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <GithubOutlined />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <LinkedinFilled />
+          </a>
+        </div>
       </div>
       <div className="img_name">
         <img src={side_image} alt="my_side_image" />
