@@ -5,17 +5,38 @@ function FooterComponent() {
   return (
     <div className="footer">
       <div className="links">
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link
+          className="link"
+          to="/"
+          style={{ textDecoration: "none", color: "black" }}
+        >
           HOME
         </Link>
-        <Link to="/aboutMe" style={{ textDecoration: "none", color: "black" }}>
+        <Link
+          className="link"
+          to="/aboutMe"
+          style={{ textDecoration: "none", color: "black" }}
+        >
           ABOUT
         </Link>
-        <Link to="/projects" style={{ textDecoration: "none", color: "black" }}>
+        <Link
+          className="link"
+          to="/projects"
+          style={{ textDecoration: "none", color: "black" }}
+        >
           PROJECTS
         </Link>
-        <Link style={{ textDecoration: "none", color: "black" }}>RESUME</Link>
-        <Link to="/contact" style={{ textDecoration: "none", color: "black" }}>
+        <Link
+          className="link"
+          style={{ textDecoration: "none", color: "black" }}
+        >
+          RESUME
+        </Link>
+        <Link
+          className="link"
+          to="/contact"
+          style={{ textDecoration: "none", color: "black" }}
+        >
           CONTACT
         </Link>
       </div>
@@ -23,7 +44,10 @@ function FooterComponent() {
         <h3>Srinivasa Bharadwaj Peddinti</h3>
       </div>
       <div>
-        <p>Copyright by Srinivasa Bharadwaj Peddinti 2023</p>
+        <p>
+          {" "}
+          &#169; 2023 Copyright : <b>Srinivasa Bharadwaj Peddinti</b>
+        </p>
       </div>
     </div>
   );

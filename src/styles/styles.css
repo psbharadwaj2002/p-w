@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0ps;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -39,8 +39,6 @@ nav .navbar-nav li a:hover {
   padding: 20px 0 3px 0;
   color: black;
   width: 100vw;
-  position: absolute;
-  bottom: 0;
 }
 .footer .links {
   display: flex;
@@ -48,6 +46,9 @@ nav .navbar-nav li a:hover {
   flex-wrap: wrap;
   -moz-column-gap: 80px;
        column-gap: 80px;
+}
+.footer .links .link:hover {
+  font-weight: 700;
 }
 .footer h3 {
   font-family: "Permanent Marker", cursive !important;
@@ -57,6 +58,58 @@ nav .navbar-nav li a:hover {
   margin-top: 10px;
   font-size: 12px;
   color: rgb(69, 69, 69);
+}
+
+.introComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 60px;
+  margin-top: 150px;
+}
+.introComponent .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.introComponent .icons a {
+  text-decoration: none;
+  color: white;
+}
+.introComponent .img_name {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.introComponent .img_name img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.introComponent .img_name #name {
+  font-family: "Permanent Marker", cursive !important;
+  color: #FFB800;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.introComponent .img_name p:not([id=name]) {
+  color: white;
+  font-size: 20px;
+}
+.introComponent #right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.introComponent #right p {
+  transform: rotate(-90deg);
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  width: 100px;
+  right: -40px;
 }
 
 @media only screen and (max-width: 620px) {

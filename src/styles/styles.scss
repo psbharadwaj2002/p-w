@@ -1,8 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0ps;
+    padding: 0px;
     box-sizing: border-box;
 }
+
+// font-family: 'Permanent Marker', cursive !important;
 
 // ********************************************************************************************************************************
 //                                                         NAVBAR
@@ -42,6 +44,11 @@ nav {
     }
 }
 
+// ********************************************************************************************************************************
+//                                                         FOOTER COMPONENT
+// ********************************************************************************************************************************
+
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -54,8 +61,7 @@ nav {
     padding: 20px 0 3px 0;
     color: black;
     width: 100vw;
-    position: absolute;
-    bottom: 0;
+
 
 
     .links {
@@ -63,6 +69,10 @@ nav {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 80px;
+
+        .link:hover {
+            font-weight: 700;
+        }
     }
 
     h3 {
@@ -77,6 +87,71 @@ nav {
     }
 }
 
+// ********************************************************************************************************************************
+//                                                         ABOUT COMPONENT
+// ********************************************************************************************************************************
+
+.introComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 60px;
+    margin-top: 150px;
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .img_name {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        img {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        #name {
+            font-family: 'Permanent Marker', cursive !important;
+            color: #FFB800;
+            font-size: 36px;
+            margin-bottom: 0px;
+        }
+
+        p:not([id="name"]) {
+            color: white;
+            font-size: 20px;
+        }
+    }
+
+    #right {
+        display: flex;
+        align-items: center;
+        // justify-content: flex-start;
+        position: relative;
+
+        p {
+            transform: rotate(-90deg);
+            color: white;
+            font-size: 12px;
+            position: absolute;
+            width: 100px;
+            right: -40px;
+        }
+
+    }
+}
 
 
 
