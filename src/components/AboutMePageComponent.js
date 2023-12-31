@@ -12,7 +12,9 @@ function AboutMePageComponent() {
         <h5 style={{ color: "wheat" }}>BACHELOR's DEGREE</h5>
         <div className="study">
           <h6>
-            Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya University
+            <em>
+              Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya University
+            </em>
           </h6>
           <div>
             <ul>
@@ -29,7 +31,9 @@ function AboutMePageComponent() {
         </div>
         <h5 style={{ color: "wheat" }}>INTERMEDIATE</h5>
         <div className="study">
-          <h6>Narayana Jr. College</h6>
+          <h6>
+            <em>Narayana Jr. College</em>
+          </h6>
           <div>
             <ul>
               <li>M.P.C</li>
@@ -47,7 +51,9 @@ function AboutMePageComponent() {
           X <sup>TH</sup>
         </h5>
         <div className="study">
-          <h6>Narayana EM High School</h6>
+          <h6>
+            <em>Narayana EM High School</em>
+          </h6>
           <div>
             <ul>
               <li>State Board</li>
@@ -59,7 +65,48 @@ function AboutMePageComponent() {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className="skills">
+        <div className="title">
+          <div></div>
+          SKILLS
+          <div></div>
+        </div>
+        <div className="skill_container">
+          <div>
+            <ul>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>Redux</li>
+              <li>MySQL</li>
+              <li>REST API's</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>OOPS</li>
+              <li>DSA</li>
+              <li>SASS</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>UI/UX</li>
+              <li>Backend Web Development &nbsp;</li>
+              <li>Bootstrap</li>
+              <li>System Design</li>
+              <li>Linux</li>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
