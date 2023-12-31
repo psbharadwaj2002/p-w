@@ -326,6 +326,61 @@ nav {
     }
 }
 
+// ********************************************************************************************************************************
+//                                                         ABOUT ME PAGE COMPONENT
+// ********************************************************************************************************************************
+
+.aboutMePageComponent {
+    margin: 10px 60px;
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+
+        h5 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            color: white;
+            align-items: center;
+            column-gap: 30px;
+            font-size: 20px;
+            margin-bottom: 20px;
+
+            div {
+                width: 80px;
+                height: 2px;
+                border-radius: 5px;
+                background-color: white;
+            }
+        }
+    }
+
+    .study {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+
+        h6 {
+            width: 300px;
+        }
+
+        div {
+            width: 400px;
+        }
+
+        li {
+            font-size: 15px;
+        }
+    }
+}
 
 @media only screen and (max-width: 620px) {
     nav {

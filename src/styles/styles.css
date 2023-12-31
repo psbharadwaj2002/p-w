@@ -253,6 +253,50 @@ nav .navbar-nav li a:hover {
   transform: scale(1.1);
 }
 
+.aboutMePageComponent {
+  margin: 10px 60px;
+}
+.aboutMePageComponent .education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMePageComponent .education h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aboutMePageComponent .education .title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.aboutMePageComponent .education .title div {
+  width: 80px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+.aboutMePageComponent .study {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.aboutMePageComponent .study h6 {
+  width: 300px;
+}
+.aboutMePageComponent .study div {
+  width: 400px;
+}
+.aboutMePageComponent .study li {
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 620px) {
   nav {
     font-size: 10px;
