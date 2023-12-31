@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import FooterComponent from "../components/FooterComponent";
 import IntroComponent from "../components/IntroComponent";
 import AboutComopnent from "../components/AboutComopnent";
+import ProjectComponent from "../components/ProjectComponent";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Navbar />
       <IntroComponent />
       <AboutComopnent />
+      <ProjectComponent />
       <FooterComponent />
     </div>
   );

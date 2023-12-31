@@ -203,6 +203,50 @@ nav .navbar-nav li a:hover {
   background-color: white;
 }
 
+.projectComponent {
+  margin: 10px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.projectComponent div .title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 20px;
+}
+.projectComponent div .title div {
+  width: 80px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+.projectComponent .projects {
+  padding: 20px;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.projectComponent .projects .project {
+  max-width: 200px;
+}
+.projectComponent .projects .project img {
+  height: 100px;
+  width: 100%;
+}
+.projectComponent .projects .project .title {
+  color: white;
+  font-size: 12px;
+}
+
 @media only screen and (max-width: 620px) {
   nav {
     font-size: 10px;

@@ -39,6 +39,7 @@ function AboutComopnent() {
                 <li>Redux</li>
                 <li>Python</li>
                 <li>MySQL</li>
+                <li>DSA</li>
                 <li>OOPS</li>
               </ul>
               <ul>
