@@ -21,12 +21,6 @@ function AboutComopnent() {
                 work ethic to every project.
               </p>
             </div>
-            <Link
-              to="aboutMe"
-              style={{ textDecoration: "none", color: "#5aea44", fontSize: 12 }}
-            >
-              Click here to know more about me
-            </Link>
           </div>
           <div className="skill">
             <div className="title">
@@ -52,14 +46,14 @@ function AboutComopnent() {
             </div>
             <div>
               <Link
-                to="projects"
+                to="/aboutMe"
                 style={{
                   textDecoration: "none",
                   color: "#5aea44",
                   fontSize: 12,
                 }}
               >
-                Click here to know more about my skills
+                Click here to know more about me
               </Link>
             </div>
           </div>
