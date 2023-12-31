@@ -161,7 +161,7 @@ nav .navbar-nav li a:hover {
 .aboutComponent .container .about_skill .about .about_me_matter p {
   margin-top: 20px;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 .aboutComponent .container .about_skill .skill {
   margin-top: 10px;
@@ -179,6 +179,9 @@ nav .navbar-nav li a:hover {
 .aboutComponent .container .about_skill .skill .skills ul {
   color: white;
   list-style: none;
+}
+.aboutComponent .container .about_skill .skill .skills li {
+  font-size: 14px;
 }
 .aboutComponent .container .about_skill .skill .skills ul li::before {
   content: "•";
@@ -255,6 +258,7 @@ nav .navbar-nav li a:hover {
 
 .aboutMePageComponent {
   margin: 10px 60px;
+  padding-top: 30px;
 }
 .aboutMePageComponent .education {
   display: flex;
@@ -264,11 +268,12 @@ nav .navbar-nav li a:hover {
 .aboutMePageComponent .education h5 {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 .aboutMePageComponent .education .title {
   display: flex;
   justify-content: center;
-  color: white;
+  color: whitesmoke;
   align-items: center;
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -279,22 +284,77 @@ nav .navbar-nav li a:hover {
   width: 80px;
   height: 2px;
   border-radius: 5px;
-  background-color: white;
+  background-color: whitesmoke;
 }
-.aboutMePageComponent .study {
+.aboutMePageComponent .education .study {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
-.aboutMePageComponent .study h6 {
+.aboutMePageComponent .education .study h6 {
   width: 300px;
 }
-.aboutMePageComponent .study div {
+.aboutMePageComponent .education .study div {
   width: 400px;
 }
-.aboutMePageComponent .study li {
+.aboutMePageComponent .education .study li {
   font-size: 15px;
+}
+.aboutMePageComponent .education .study ul {
+  color: white;
+  list-style: none;
+}
+.aboutMePageComponent .education .study ul li::before {
+  content: "•";
+  color: #FFB800;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.aboutMePageComponent .skills {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.aboutMePageComponent .skills .title {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.aboutMePageComponent .skills .title div {
+  width: 80px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.aboutMePageComponent .skills .skill_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 0;
+}
+.aboutMePageComponent .skills .skill_container ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+.aboutMePageComponent .skills .skill_container ul li::before {
+  content: "•";
+  color: #FFB800;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 @media only screen and (max-width: 620px) {
