@@ -23,9 +23,9 @@ function AboutComopnent() {
             </div>
             <Link
               to="aboutMe"
-              style={{ textDecoration: "none", color: "grey", fontSize: 12 }}
+              style={{ textDecoration: "none", color: "#5aea44", fontSize: 12 }}
             >
-              To know more about me Click Here
+              Click here to know more about me
             </Link>
           </div>
           <div className="skill">
@@ -53,9 +53,13 @@ function AboutComopnent() {
             <div>
               <Link
                 to="projects"
-                style={{ textDecoration: "none", color: "grey", fontSize: 12 }}
+                style={{
+                  textDecoration: "none",
+                  color: "#5aea44",
+                  fontSize: 12,
+                }}
               >
-                To know more about my skills Click Here
+                Click here to know more about my skills
               </Link>
             </div>
           </div>

@@ -228,7 +228,6 @@ nav .navbar-nav li a:hover {
 }
 .projectComponent .projects {
   padding: 20px;
-  max-width: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -236,15 +235,22 @@ nav .navbar-nav li a:hover {
   gap: 15px;
 }
 .projectComponent .projects .project {
-  max-width: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  gap: 15px;
 }
 .projectComponent .projects .project img {
-  height: 100px;
+  height: 150px;
   width: 100%;
 }
 .projectComponent .projects .project .title {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
+}
+.projectComponent .projects .project:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 620px) {

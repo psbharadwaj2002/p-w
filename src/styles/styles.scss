@@ -296,7 +296,6 @@ nav {
 
     .projects {
         padding: 20px;
-        max-width: 700px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -304,17 +303,25 @@ nav {
         gap: 15px;
 
         .project {
-            max-width: 200px;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            transition: transform .2s;
+            gap: 15px;
 
             img {
-                height: 100px;
+                height: 150px;
                 width: 100%;
             }
 
             .title {
                 color: white;
-                font-size: 12px;
+                font-size: 14px;
             }
+        }
+
+        .project:hover {
+            transform: scale(1.1);
         }
     }
 }
