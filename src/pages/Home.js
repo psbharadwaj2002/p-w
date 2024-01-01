@@ -4,6 +4,7 @@ import FooterComponent from "../components/FooterComponent";
 import IntroComponent from "../components/IntroComponent";
 import AboutComopnent from "../components/AboutComopnent";
 import ProjectComponent from "../components/ProjectComponent";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <IntroComponent />
       <AboutComopnent />
       <ProjectComponent />
+      <Contact />
       <FooterComponent />
     </div>
   );

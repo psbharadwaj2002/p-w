@@ -264,6 +264,7 @@ nav .navbar-nav li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 .aboutMePageComponent .education h5 {
   margin-top: 20px;
@@ -317,6 +318,8 @@ nav .navbar-nav li a:hover {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .aboutMePageComponent .skills .title {
   display: flex;
@@ -355,6 +358,60 @@ nav .navbar-nav li a:hover {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+#form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+#form .lets_work {
+  max-width: 500px;
+}
+#form .lets_work p {
+  text-align: justify;
+}
+#form form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#form form label {
+  font-size: 16px;
+  margin-top: 20px;
+}
+#form form input,
+#form form textarea {
+  border-radius: 10px;
+  background-color: gray;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+#form form input {
+  height: 50px;
+  width: 300px;
+}
+#form form textarea {
+  height: 100px;
+}
+#form form .button {
+  height: 30px;
+  width: 100px;
+}
+#form form div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+#form form div .button {
+  background-color: #FFB800;
+  border-radius: 10px;
+  border: none;
 }
 
 @media only screen and (max-width: 620px) {
