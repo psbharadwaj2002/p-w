@@ -1,5 +1,5 @@
 * {
-    margin: 0ps;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -374,9 +374,11 @@ nav {
             flex-wrap: wrap;
             align-items: center;
 
-            h6 {
+            div {
                 width: 300px;
+
             }
+
 
             div {
                 width: 400px;
@@ -459,7 +461,7 @@ nav {
 //                                                         CONTACT
 // ********************************************************************************************************************************
 
-#contactFrom {
+.contactFrom {
     display: flex;
     flex-direction: column;
     // justify-content: center;
@@ -601,10 +603,119 @@ nav {
     }
 }
 
+// ********************************************************************************************************************************
+//                                                         PROJECT PAGE COMPONENT
+// ********************************************************************************************************************************
+
+.projectsPageComponent {
+    margin: 10px 60px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    // justify-content: center;
+    align-items: center;
+
+    .title {
+        display: flex;
+        color: white;
+        align-items: center;
+        column-gap: 30px;
+        font-size: 20px;
+
+        div {
+            width: 80px;
+            height: 2px;
+            border-radius: 5px;
+            background-color: white;
+        }
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        gap: 20px;
+        row-gap: 40px;
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            // max-width: 900px;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            .image_name {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                max-width: 400px;
+                justify-content: space-between;
+                row-gap: 5px;
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    color: gold;
+                }
+            }
+
+            .description {
+                max-width: 500px;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    text-align: justify;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .gap {
+            height: 3px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: gray;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 930px) {
+
+    .aboutMePageComponent {
+        .education {
+            .study {
+                div {
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+}
+
 @media only screen and (max-width: 620px) {
+
+    // ********************************************************************************************************************************
+    //                                                         NAVBAR
+    // ********************************************************************************************************************************
+
     nav {
         font-size: 10px;
         margin: 10px 20px;
+        // padding: 0 10px;
 
         .navbar-brand {
             font-size: 17px;
@@ -617,6 +728,7 @@ nav {
 
         .navbar-nav {
             li {
+                font-size: 12px;
 
                 a:hover {
                     color: #F5E9CF !important;
@@ -626,5 +738,267 @@ nav {
             }
 
         }
+    }
+
+    // ********************************************************************************************************************************
+    //                                                         FOOTER COMPONENT
+    // ********************************************************************************************************************************
+
+    // none
+
+    // ********************************************************************************************************************************
+    //                                                         INTRO COMPONENT
+    // ********************************************************************************************************************************
+
+
+    .introComponent {
+        margin: 10px 30px;
+        margin-top: 100px;
+
+        .icons {
+            div {
+                row-gap: 10px;
+            }
+        }
+
+        .img_name {
+            img {
+                height: 200px;
+                width: 200px;
+            }
+
+            #name {
+                font-size: 22px;
+            }
+
+            p:not([id="name"]) {
+                font-size: 13px;
+            }
+        }
+
+        #right {
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+
+    // ********************************************************************************************************************************
+    //                                                         ABOUT COMPONENT
+    // ********************************************************************************************************************************
+
+    .aboutComponent {
+        margin: 10px 30px;
+        margin-top: 100px;
+
+        .container {
+
+            img {
+                height: 350px;
+                width: 300px;
+            }
+
+            .about_skill {
+                .about {
+                    .about_me_matter {
+
+                        // max-width: 400px;
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .skill {
+                    .skills {
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // ********************************************************************************************************************************
+    //                                                         ABOUT ME PAGE COMPONENT
+    // ********************************************************************************************************************************
+
+    .aboutMePageComponent {
+        margin: 10px 30px;
+
+        .education {
+            margin-top: 50px;
+
+            h5 {
+                font-size: 15px;
+            }
+
+            .study {
+
+                h6 {
+                    // font-size: 14px;
+                    width: 300px;
+                    font-size: 14px;
+                }
+
+                li {
+                    font-size: 12px;
+                }
+            }
+
+        }
+
+        .skills {
+            .skill_container {
+
+
+                ul {
+                    font-size: 12px;
+                }
+
+                ul li::before {
+                    content: "\2022";
+                    color: #FFB800;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -2.5em;
+                }
+
+            }
+        }
+    }
+
+    // ********************************************************************************************************************************
+    //                                                         CONTACT 
+    // ********************************************************************************************************************************
+
+    .contactFrom {
+        margin: 10px 30px;
+        margin-top: 50px;
+
+        #form {
+            .lets_work {
+                div {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                .icons {
+                    font-size: 15px;
+                }
+            }
+
+            form {
+                label {
+                    font-size: 12px;
+                }
+
+                input,
+                textarea {
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                }
+
+                input {
+                    height: 40px;
+                    width: 300px;
+                }
+
+                div {
+
+                    .button {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    // ********************************************************************************************************************************
+    //                                                         PROJECT COMPONENT
+    // ********************************************************************************************************************************
+
+    .projectComponent {
+        margin: 10px 20px;
+        margin-top: 50px;
+
+        .projects {
+            .project {
+                img {
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+
+    .projectsPageComponent {
+        margin-top: 90px;
+        margin: 10px 30px;
+
+        .projects {
+            // padding-top: 10px;
+
+            .project {
+                .image_name {
+                    max-width: 250px;
+
+                    p {
+                        font-size: 15px;
+                        color: gold;
+                    }
+                }
+
+                .description {
+                    p {
+                        font-size: 13px;
+                    }
+
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .gap {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .footer {
+        .links {
+            column-gap: 20px;
+
+            .link {
+                font-size: 12px;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            margin-top: 0;
+            font-size: 8px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 415px) {
+    nav {
+        margin: 10px 0;
     }
 }

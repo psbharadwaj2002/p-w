@@ -28,12 +28,11 @@ function Contact() {
   };
 
   const closeAlert = () => {
-    // Close the alert when the user clicks on close button
     setShow(false);
   };
 
   return (
-    <div id="contactFrom">
+    <div id="contactFrom" className="contactFrom">
       <div className="title">
         <div></div>
         CONTACT

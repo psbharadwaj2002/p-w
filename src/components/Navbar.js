@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav
+      className="navbar navbar-expand-lg fixed-top pb-4"
+      style={{ backgroundColor: "#111111", marginTop: 0, paddingTop: 10 }}
+    >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           BHARADWAJ

@@ -11,12 +11,16 @@ function AboutMePageComponent() {
         </div>
         <h5 style={{ color: "wheat" }}>BACHELOR's DEGREE</h5>
         <div className="study">
-          <h6>
-            <em>
-              Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya University
-            </em>
-          </h6>
-          <div>
+          <div className="small_screens">
+            <div></div>
+            <h6>
+              <em>
+                Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya
+                University
+              </em>
+            </h6>
+          </div>
+          <div className="small_screens">
             <ul>
               <li>B.E - Computer Science and Engineering</li>
               <li>
@@ -31,10 +35,12 @@ function AboutMePageComponent() {
         </div>
         <h5 style={{ color: "wheat" }}>INTERMEDIATE</h5>
         <div className="study">
-          <h6>
-            <em>Narayana Jr. College</em>
-          </h6>
-          <div>
+          <div className="small_screens">
+            <h6>
+              <em>Narayana Jr. College</em>
+            </h6>
+          </div>
+          <div className="small_screens">
             <ul>
               <li>M.P.C</li>
               <li>
@@ -51,10 +57,12 @@ function AboutMePageComponent() {
           X <sup>TH</sup>
         </h5>
         <div className="study">
-          <h6>
-            <em>Narayana EM High School</em>
-          </h6>
-          <div>
+          <div className="small_screens">
+            <h6>
+              <em>Narayana EM High School</em>
+            </h6>
+          </div>
+          <div className="small_screens">
             <ul>
               <li>State Board</li>
               <li>
@@ -72,7 +80,7 @@ function AboutMePageComponent() {
           <div></div>
         </div>
         <div className="skill_container">
-          <div>
+          <div className="skill">
             <ul>
               <li>React.js</li>
               <li>Node.js</li>
@@ -83,7 +91,7 @@ function AboutMePageComponent() {
               <li>REST API's</li>
             </ul>
           </div>
-          <div>
+          <div className="skill">
             <ul>
               <li>JavaScript</li>
               <li>Python</li>
@@ -94,7 +102,7 @@ function AboutMePageComponent() {
               <li>SASS</li>
             </ul>
           </div>
-          <div>
+          <div className="skill">
             <ul>
               <li>UI/UX</li>
               <li>Backend Web Development &nbsp;</li>
@@ -115,10 +123,12 @@ function AboutMePageComponent() {
         </div>
         <h5 style={{ color: "wheat" }}>INTERNSHIP</h5>
         <div className="study">
-          <h6>
-            <em>Expand AI</em>
-          </h6>
-          <div>
+          <div className="small_screens">
+            <h6>
+              <em>Expand AI</em>
+            </h6>
+          </div>
+          <div className="small_screens">
             <ul>
               <li>Data Associate - Machine Learning Intern</li>
               <li>Labeling Object Detection.</li>
@@ -152,10 +162,12 @@ function AboutMePageComponent() {
         </div>
         <h5 style={{ color: "wheat" }}>MERN Stack</h5>
         <div className="study">
-          <h6>
-            <em>GUVI- IIMA & IITM Incubated Company</em>
-          </h6>
-          <div>
+          <div className="small_screens">
+            <h6>
+              <em>GUVI- IIMA & IITM Incubated Company</em>
+            </h6>
+          </div>
+          <div className="small_screens">
             <ul>
               <li>Zen Class Full Stack Developer Program</li>
               <li>Trained MERN Stack Developer</li>

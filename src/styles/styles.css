@@ -1,6 +1,6 @@
 @charset "UTF-8";
 * {
-  margin: 0ps;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
@@ -293,7 +293,7 @@ nav .navbar-nav li a:hover {
   flex-wrap: wrap;
   align-items: center;
 }
-.aboutMePageComponent .education .study h6 {
+.aboutMePageComponent .education .study div {
   width: 300px;
 }
 .aboutMePageComponent .education .study div {
@@ -360,14 +360,14 @@ nav .navbar-nav li a:hover {
   margin-left: -1em;
 }
 
-#contactFrom {
+.contactFrom {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px 60px;
   margin-top: 100px;
 }
-#contactFrom .title {
+.contactFrom .title {
   display: flex;
   justify-content: center;
   color: whitesmoke;
@@ -377,35 +377,35 @@ nav .navbar-nav li a:hover {
   font-size: 20px;
   margin-bottom: 20px;
 }
-#contactFrom .title div {
+.contactFrom .title div {
   width: 80px;
   height: 2px;
   border-radius: 5px;
   background-color: whitesmoke;
 }
-#contactFrom #form {
+.contactFrom #form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   margin-bottom: 100px;
 }
-#contactFrom #form .lets_work {
+.contactFrom #form .lets_work {
   max-width: 500px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#contactFrom #form .lets_work div p {
+.contactFrom #form .lets_work div p {
   font-size: 30px;
   font-family: "Permanent Marker", cursive !important;
   color: #FFB800;
 }
-#contactFrom #form .lets_work p {
+.contactFrom #form .lets_work p {
   text-align: justify;
 }
-#contactFrom #form .lets_work .icons {
+.contactFrom #form .lets_work .icons {
   width: 100px;
   display: flex;
   flex-direction: row;
@@ -413,29 +413,29 @@ nav .navbar-nav li a:hover {
   justify-content: space-evenly;
   font-size: 20px;
 }
-#contactFrom #form .lets_work .icons a {
+.contactFrom #form .lets_work .icons a {
   color: #FFB800;
   transition: transform 0.2s;
 }
-#contactFrom #form .lets_work .icons a:hover {
+.contactFrom #form .lets_work .icons a:hover {
   text-decoration: none;
   transform: scale(1.5);
 }
-#contactFrom #form .form {
+.contactFrom #form .form {
   position: relative;
 }
-#contactFrom #form form {
+.contactFrom #form form {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-#contactFrom #form form label {
+.contactFrom #form form label {
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
-#contactFrom #form form input,
-#contactFrom #form form textarea {
+.contactFrom #form form input,
+.contactFrom #form form textarea {
   border-radius: 10px;
   background-color: gray;
   padding: 10px;
@@ -444,40 +444,118 @@ nav .navbar-nav li a:hover {
   font-size: 14px;
   padding-left: 15px;
 }
-#contactFrom #form form input::-moz-placeholder {
+.contactFrom #form form input::-moz-placeholder {
   color: #111111;
 }
-#contactFrom #form form input::placeholder {
+.contactFrom #form form input::placeholder {
   color: #111111;
 }
-#contactFrom #form form textarea::-moz-placeholder {
+.contactFrom #form form textarea::-moz-placeholder {
   color: #111111;
 }
-#contactFrom #form form textarea::placeholder {
+.contactFrom #form form textarea::placeholder {
   color: #111111;
 }
-#contactFrom #form form input {
+.contactFrom #form form input {
   height: 50px;
   width: 300px;
 }
-#contactFrom #form form textarea {
+.contactFrom #form form textarea {
   height: 100px;
 }
-#contactFrom #form form .button {
+.contactFrom #form form .button {
   height: 30px;
   width: 100px;
 }
-#contactFrom #form form div {
+.contactFrom #form form div {
   display: flex;
   justify-content: flex-end;
   margin-top: 50px;
 }
-#contactFrom #form form div .button {
+.contactFrom #form form div .button {
   background-color: #FFB800;
   border-radius: 10px;
   border: none;
 }
 
+.projectsPageComponent {
+  margin: 10px 60px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.projectsPageComponent .title {
+  display: flex;
+  color: white;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 20px;
+}
+.projectsPageComponent .title div {
+  width: 80px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+.projectsPageComponent .projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+  row-gap: 40px;
+}
+.projectsPageComponent .projects .project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.projectsPageComponent .projects .project .image_name {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 400px;
+  justify-content: space-between;
+  row-gap: 5px;
+}
+.projectsPageComponent .projects .project .image_name img {
+  width: 100%;
+}
+.projectsPageComponent .projects .project .image_name p {
+  color: gold;
+}
+.projectsPageComponent .projects .project .description {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.projectsPageComponent .projects .project .description p {
+  text-align: justify;
+}
+.projectsPageComponent .projects .project .description a {
+  text-decoration: none;
+}
+.projectsPageComponent .projects .gap {
+  height: 3px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 930px) {
+  .aboutMePageComponent .education .study div {
+    width: 300px;
+  }
+}
 @media only screen and (max-width: 620px) {
   nav {
     font-size: 10px;
@@ -489,9 +567,147 @@ nav .navbar-nav li a:hover {
   nav .navbar-brand:hover {
     transform: scale(1.1);
   }
+  nav .navbar-nav li {
+    font-size: 12px;
+  }
   nav .navbar-nav li a:hover {
     color: #F5E9CF !important;
     transform: scale(1);
     filter: brightness(100%);
+  }
+  .introComponent {
+    margin: 10px 30px;
+    margin-top: 100px;
+  }
+  .introComponent .icons div {
+    row-gap: 10px;
+  }
+  .introComponent .img_name img {
+    height: 200px;
+    width: 200px;
+  }
+  .introComponent .img_name #name {
+    font-size: 22px;
+  }
+  .introComponent .img_name p:not([id=name]) {
+    font-size: 13px;
+  }
+  .introComponent #right p {
+    font-size: 10px;
+  }
+  .aboutComponent {
+    margin: 10px 30px;
+    margin-top: 100px;
+  }
+  .aboutComponent .container img {
+    height: 350px;
+    width: 300px;
+  }
+  .aboutComponent .container .about_skill .about .about_me_matter p {
+    font-size: 12px;
+  }
+  .aboutComponent .container .about_skill .skill .skills li {
+    font-size: 12px;
+  }
+  .aboutMePageComponent {
+    margin: 10px 30px;
+  }
+  .aboutMePageComponent .education {
+    margin-top: 50px;
+  }
+  .aboutMePageComponent .education h5 {
+    font-size: 15px;
+  }
+  .aboutMePageComponent .education .study h6 {
+    width: 300px;
+    font-size: 14px;
+  }
+  .aboutMePageComponent .education .study li {
+    font-size: 12px;
+  }
+  .aboutMePageComponent .skills .skill_container ul {
+    font-size: 12px;
+  }
+  .aboutMePageComponent .skills .skill_container ul li::before {
+    content: "•";
+    color: #FFB800;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2.5em;
+  }
+  .contactFrom {
+    margin: 10px 30px;
+    margin-top: 50px;
+  }
+  .contactFrom #form .lets_work div p {
+    font-size: 20px;
+  }
+  .contactFrom #form .lets_work p {
+    font-size: 12px;
+  }
+  .contactFrom #form .lets_work .icons {
+    font-size: 15px;
+  }
+  .contactFrom #form form label {
+    font-size: 12px;
+  }
+  .contactFrom #form form input,
+  .contactFrom #form form textarea {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .contactFrom #form form input {
+    height: 40px;
+    width: 300px;
+  }
+  .contactFrom #form form div .button {
+    font-size: 14px;
+  }
+  .projectComponent {
+    margin: 10px 20px;
+    margin-top: 50px;
+  }
+  .projectComponent .projects .project img {
+    height: 100px;
+  }
+  .projectsPageComponent {
+    margin-top: 90px;
+    margin: 10px 30px;
+  }
+  .projectsPageComponent .projects .project .image_name {
+    max-width: 250px;
+  }
+  .projectsPageComponent .projects .project .image_name p {
+    font-size: 15px;
+    color: gold;
+  }
+  .projectsPageComponent .projects .project .description p {
+    font-size: 13px;
+  }
+  .projectsPageComponent .projects .project .description a {
+    font-size: 13px;
+  }
+  .projectsPageComponent .projects .gap {
+    width: 100%;
+  }
+  .footer .links {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .footer .links .link {
+    font-size: 12px;
+  }
+  .footer h3 {
+    font-size: 20px;
+  }
+  .footer p {
+    margin-top: 0;
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  nav {
+    margin: 10px 0;
   }
 }/*# sourceMappingURL=styles.css.map */

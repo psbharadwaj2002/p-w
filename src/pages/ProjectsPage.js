@@ -2,12 +2,13 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import FooterComponent from "../components/FooterComponent";
 import Contact from "../components/Contact";
+import ProjectPageComponent from "../components/ProjectPageComponent";
 
 function ProjectsPage() {
   return (
     <div>
       <Navbar />
-      <p style={{ color: "white" }}>Projects Page</p>
+      <ProjectPageComponent />
       <Contact />
       <FooterComponent />
     </div>
