@@ -107,6 +107,75 @@ function AboutMePageComponent() {
           </div>
         </div>
       </div>
+      <div className="education">
+        <div className="title">
+          <div></div>
+          EXPERIENCE
+          <div></div>
+        </div>
+        <h5 style={{ color: "wheat" }}>INTERNSHIP</h5>
+        <div className="study">
+          <h6>
+            <em>Expand AI</em>
+          </h6>
+          <div>
+            <ul>
+              <li>Data Associate - Machine Learning Intern</li>
+              <li>Labeling Object Detection.</li>
+              <li>Preparing Research Reports.</li>
+              <li>Instance Segmentation Data.</li>
+              <li>
+                Adapted to changing project priorities and requirements,
+                showcasing flexibility in labeling tasks.
+              </li>
+              <li>21/12/2021 - 21/02/2022</li>
+              <li>
+                {" "}
+                <a
+                  href="https://drive.google.com/file/d/1vcNYebONCATdDrQLhaYEh3wZITFepoMn/view?usp=sharing"
+                  style={{ color: "green", textDecoration: "none" }}
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Click here to view certificate
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="education">
+        <div className="title">
+          <div></div>
+          CERTIFICATIONS
+          <div></div>
+        </div>
+        <h5 style={{ color: "wheat" }}>MERN Stack</h5>
+        <div className="study">
+          <h6>
+            <em>GUVI- IIMA & IITM Incubated Company</em>
+          </h6>
+          <div>
+            <ul>
+              <li>Zen Class Full Stack Developer Program</li>
+              <li>Trained MERN Stack Developer</li>
+              <li>UI/UX, Backend Web Development, API</li>
+              <li>Done around 10 projects to gain hands on experience</li>
+              <li>06/2023 - 12/2023</li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1QB_kzfrYsuG1fLk0qJNnMIre3X2170Pj/view?usp=sharing"
+                  style={{ color: "green", textDecoration: "none" }}
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Click here to view certificate
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

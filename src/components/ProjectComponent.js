@@ -9,6 +9,7 @@ function ProjectComponent() {
     <div className="projectComponent" id="projectComponent">
       <div>
         <div className="title">
+          <div></div>
           PORTFOLIO
           <div></div>
         </div>
