@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c571d5a2.css",
-    "main.js": "/static/js/main.18d04beb.js",
+    "main.css": "/static/css/main.5d8b49f0.css",
+    "main.js": "/static/js/main.d41ec289.js",
     "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
     "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
     "static/media/side_image.png": "/static/media/side_image.f3e2ce921efc3286eb9a.png",
     "static/media/desktopNotesApp.png": "/static/media/desktopNotesApp.090f54fa3f57e16064f6.png",
+    "static/media/mealDB.webp": "/static/media/mealDB.60ad11b8f32de55051d0.webp",
+    "static/media/logAndQuery.webp": "/static/media/logAndQuery.0727edc01f4ba159ab51.webp",
+    "static/media/foodLandingPage.webp": "/static/media/foodLandingPage.5063a8b34db9d7da4092.webp",
     "static/media/cryptoSharingDapp.webp": "/static/media/cryptoSharingDapp.01d1d04a0d3123265104.webp",
+    "static/media/diceGame.webp": "/static/media/diceGame.22f89c99e16730b72854.webp",
     "index.html": "/index.html",
-    "main.c571d5a2.css.map": "/static/css/main.c571d5a2.css.map",
-    "main.18d04beb.js.map": "/static/js/main.18d04beb.js.map"
+    "main.5d8b49f0.css.map": "/static/css/main.5d8b49f0.css.map",
+    "main.d41ec289.js.map": "/static/js/main.d41ec289.js.map"
   },
   "entrypoints": [
-    "static/css/main.c571d5a2.css",
-    "static/js/main.18d04beb.js"
+    "static/css/main.5d8b49f0.css",
+    "static/js/main.d41ec289.js"
   ]
 }

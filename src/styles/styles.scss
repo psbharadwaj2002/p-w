@@ -693,6 +693,18 @@ nav {
 }
 
 @media only screen and (max-width: 930px) {
+    nav {
+        .navbar-nav {
+            li {
+                a:hover {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 930px) {
 
     .aboutMePageComponent {
         .education {
