@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c571d5a2.css",
+    "main.js": "/static/js/main.18d04beb.js",
+    "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
+    "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
+    "static/media/side_image.png": "/static/media/side_image.f3e2ce921efc3286eb9a.png",
+    "static/media/desktopNotesApp.png": "/static/media/desktopNotesApp.090f54fa3f57e16064f6.png",
+    "static/media/cryptoSharingDapp.webp": "/static/media/cryptoSharingDapp.01d1d04a0d3123265104.webp",
+    "index.html": "/index.html",
+    "main.c571d5a2.css.map": "/static/css/main.c571d5a2.css.map",
+    "main.18d04beb.js.map": "/static/js/main.18d04beb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c571d5a2.css",
+    "static/js/main.18d04beb.js"
+  ]
+}
