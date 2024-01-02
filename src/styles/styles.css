@@ -162,6 +162,7 @@ nav .navbar-nav li a:hover {
   margin-top: 20px;
   color: white;
   font-size: 14px;
+  text-align: justify;
 }
 .aboutComponent .container .about_skill .skill {
   margin-top: 10px;

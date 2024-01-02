@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.953c2138.css",
+    "main.css": "/static/css/main.ec40d440.css",
     "main.js": "/static/js/main.cdffbef9.js",
     "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
     "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
@@ -12,11 +12,11 @@
     "static/media/cryptoSharingDapp.webp": "/static/media/cryptoSharingDapp.01d1d04a0d3123265104.webp",
     "static/media/diceGame.webp": "/static/media/diceGame.22f89c99e16730b72854.webp",
     "index.html": "/index.html",
-    "main.953c2138.css.map": "/static/css/main.953c2138.css.map",
+    "main.ec40d440.css.map": "/static/css/main.ec40d440.css.map",
     "main.cdffbef9.js.map": "/static/js/main.cdffbef9.js.map"
   },
   "entrypoints": [
-    "static/css/main.953c2138.css",
+    "static/css/main.ec40d440.css",
     "static/js/main.cdffbef9.js"
   ]
 }
