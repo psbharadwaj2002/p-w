@@ -115,8 +115,8 @@ function Contact() {
               onClose={closeAlert}
               style={{
                 position: "absolute",
-                top: "0",
-                right: -8,
+                bottom: -50,
+                right: -10,
                 // height: 50,
                 width: 250,
                 fontSize: 14,
