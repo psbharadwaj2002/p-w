@@ -677,8 +677,8 @@ nav .navbar-nav li a:hover {
     height: 100px;
   }
   .projectsPageComponent {
-    margin-top: 90px;
     margin: 10px 30px;
+    margin-top: 90px;
   }
   .projectsPageComponent .projects .project .image_name {
     max-width: 250px;
