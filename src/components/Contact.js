@@ -83,15 +83,21 @@ function Contact() {
               type="text"
               name="user_name"
               placeholder="Enter Your Name Here"
+              required
             />
             <label>Email</label>
             <input
               type="email"
               name="user_email"
               placeholder="Enter your email here"
+              required
             />
             <label>Message</label>
-            <textarea name="message" placeholder="Enter your message here" />
+            <textarea
+              name="message"
+              placeholder="Enter your message here"
+              required
+            />
             <div>
               <button type="submit" value="Send" className="button">
                 Send
