@@ -32,13 +32,13 @@ function FooterComponent() {
         >
           RESUME
         </Link>
-        <Link
+        <a
           className="link"
-          to="/contact"
+          href="#contactFrom"
           style={{ textDecoration: "none", color: "black" }}
         >
           CONTACT
-        </Link>
+        </a>
       </div>
       <div>
         <h3>Srinivasa Bharadwaj Peddinti</h3>
