@@ -32,7 +32,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/aboutMe">
+              <Link className="nav-link" to="/about-me">
                 ABOUT ME
               </Link>
             </li>

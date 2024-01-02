@@ -14,7 +14,7 @@ function FooterComponent() {
         </Link>
         <Link
           className="link"
-          to="/aboutMe"
+          to="/about-me"
           style={{ textDecoration: "none", color: "black" }}
         >
           ABOUT
