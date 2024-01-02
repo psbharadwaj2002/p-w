@@ -12,7 +12,7 @@ function ProjectPageComponent() {
     <div className="projectsPageComponent">
       <div className="title">
         <div></div>
-        PORTFOLIO
+        PROJECTS
         <div></div>
       </div>
       <div className="projects">

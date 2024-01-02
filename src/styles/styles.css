@@ -258,7 +258,7 @@ nav .navbar-nav li a:hover {
 
 .aboutMePageComponent {
   margin: 10px 60px;
-  padding-top: 30px;
+  margin-top: 100px;
 }
 .aboutMePageComponent .education {
   display: flex;
