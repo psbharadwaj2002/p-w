@@ -46,7 +46,7 @@ function AboutComopnent() {
             </div>
             <div>
               <Link
-                to="/aboutMe"
+                to="/about-me"
                 style={{
                   textDecoration: "none",
                   color: "#5aea44",

@@ -12,18 +12,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        // `${env.REACT_APP_SERVICE_ID}`,
-        // `${env.REACT_APP_TEMPLATE_ID}`,
-        // form.current,
-        // `${env.REACT_APP_PUBLIC_KEY}`
-        // `${process.env.REACT_APP_SERVICE_ID}`,
-        // `${process.env.REACT_APP_TEMPLATE_ID}`,
-        // form.current,
-        // `${process.env.REACT_APP_PUBLIC_KEY}`
-        "service_o8xyqwr",
-        "template_iyzq3qi",
+        `${process.env.REACT_APP_SERVICE_ID}`,
+        `${process.env.REACT_APP_TEMPLATE_ID}`,
         form.current,
-        "vMh1ALnBQg-9llCLl"
+        `${process.env.REACT_APP_PUBLIC_KEY}`
       )
       .then(
         (result) => {
