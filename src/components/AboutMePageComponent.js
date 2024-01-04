@@ -30,6 +30,15 @@ function AboutMePageComponent() {
                 Percentage <b>:</b> 92.85%
               </li>
               <li>2019-2023</li>
+              <li>
+                {" "}
+                <a
+                  href="https://drive.google.com/file/d/1XkQ2Jc1VBqBx-4GA5dXPHK3tdrsMMWCb/view?usp=sharing"
+                  style={{ color: "green", textDecoration: "none" }}
+                >
+                  Click here to view certificate
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -50,6 +59,15 @@ function AboutMePageComponent() {
                 Percentage <b>:</b> 93.5%
               </li>
               <li>2017-2019</li>
+              <li>
+                {" "}
+                <a
+                  href="https://drive.google.com/file/d/1mDzbBiSIYp7-0tSp-Lvd09I8Ir_z_yc_/view?usp=sharing"
+                  style={{ color: "green", textDecoration: "none" }}
+                >
+                  Click here to view certificate
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -69,6 +87,15 @@ function AboutMePageComponent() {
                 CGPA <b>:</b> 9.7
               </li>
               <li>2016-2017</li>
+              <li>
+                {" "}
+                <a
+                  href="https://drive.google.com/file/d/1erylaod77OVRbK7SFeOu8FMNxN3MNY8b/view?usp=sharing"
+                  style={{ color: "green", textDecoration: "none" }}
+                >
+                  Click here to view certificate
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -144,8 +171,6 @@ function AboutMePageComponent() {
                 <a
                   href="https://drive.google.com/file/d/1vcNYebONCATdDrQLhaYEh3wZITFepoMn/view?usp=sharing"
                   style={{ color: "green", textDecoration: "none" }}
-                  rel="noreferrer noopener"
-                  target="_blank"
                 >
                   Click here to view certificate
                 </a>
@@ -176,10 +201,8 @@ function AboutMePageComponent() {
               <li>06/2023 - 12/2023</li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1QB_kzfrYsuG1fLk0qJNnMIre3X2170Pj/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1q1II3-SzrLgD2f2EAhZ0pRJ8sf18jHxn/view?usp=sharing"
                   style={{ color: "green", textDecoration: "none" }}
-                  rel="noreferrer noopener"
-                  target="_blank"
                 >
                   Click here to view certificate
                 </a>
