@@ -9,7 +9,9 @@ body {
   font-family: 'Poppins', sans-serif;
   color: white;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
