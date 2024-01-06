@@ -35,12 +35,13 @@ function FooterComponent() {
         >
           PROJECTS
         </Link>
-        <Link
+        <a
           className="link"
           style={{ textDecoration: "none", color: "black" }}
+          href="https://drive.google.com/file/d/16L6UMGP87vxIh6hB_7DmR4AJEGL73oOI/view?usp=sharing"
         >
           RESUME
-        </Link>
+        </a>
         <a
           className="link"
           href="#contactFrom"
