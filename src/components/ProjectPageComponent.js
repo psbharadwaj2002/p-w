@@ -36,20 +36,10 @@ function ProjectPageComponent() {
               ecosystem within the Web 3.0 framework.
             </p>
             <p>Skills: Blockchain, Solidity, Tailwind CSS</p>
-            <a
-              href="https://github.com/psbharadwaj2002/crypto_sharing_Dapp.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/crypto_sharing_Dapp.git">
               👉 Source Code
             </a>
-            <a
-              href="https://kryptsd.netlify.app/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              👉 Deployed URL
-            </a>
+            <a href="https://kryptsd.netlify.app/">👉 Deployed URL</a>
           </div>
         </div>
 
@@ -75,18 +65,10 @@ function ProjectPageComponent() {
               Skills: React.js, Context API, React Bootstrap, SCSS, MongoDB,
               Express.js
             </p>
-            <a
-              href="https://github.com/psbharadwaj2002/mern_project.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/mern_project.git">
               👉 Source Code
             </a>
-            <a
-              href="https://steady-pothos-ab81dd.netlify.app/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://steady-pothos-ab81dd.netlify.app/">
               👉 Deployed URL
             </a>
           </div>
@@ -114,11 +96,7 @@ function ProjectPageComponent() {
               both log ingestion and data retrieval processes.
             </p>
             <p>Skills: React.js, MongoDB, Express.js</p>
-            <a
-              href="https://github.com/psbharadwaj2002/dyte.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/dyte.git">
               👉 Source Code
             </a>
           </div>
@@ -138,18 +116,10 @@ function ProjectPageComponent() {
               making your note-taking process effortlessly smooth.
             </p>
             <p>Skills: React, Context API, SCSS</p>
-            <a
-              href="https://github.com/psbharadwaj2002/notes-context.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/notes-context.git">
               👉 Source Code
             </a>
-            <a
-              href="https://main--notes-app-context-api.netlify.app/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://main--notes-app-context-api.netlify.app/">
               👉 Deployed URL
             </a>
           </div>
@@ -171,18 +141,10 @@ function ProjectPageComponent() {
               purposeful application.
             </p>
             <p>Skills: React, Redux, SCSS</p>
-            <a
-              href="https://github.com/psbharadwaj2002/notes-redux.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/notes-redux.git">
               👉 Source Code
             </a>
-            <a
-              href="https://notes-application-redux.netlify.app/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://notes-application-redux.netlify.app/">
               👉 Deployed URL
             </a>
           </div>
@@ -208,18 +170,10 @@ function ProjectPageComponent() {
               device.
             </p>
             <p>Skills: React, Fetch API, SCSS</p>
-            <a
-              href="https://github.com/psbharadwaj2002/meal_db.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/meal_db.git">
               👉 Source Code
             </a>
-            <a
-              href="https://meal-database-project.netlify.app/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://meal-database-project.netlify.app/">
               👉 Deployed URL
             </a>
           </div>
@@ -243,18 +197,10 @@ function ProjectPageComponent() {
               experiences that bring fun and enjoyment to users.
             </p>
             <p>Skills: HTML, CSS, SCSS, Document Object Model(DOM)</p>
-            <a
-              href="https://github.com/psbharadwaj2002/Dice_Game_DOM_JS.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/Dice_Game_DOM_JS.git">
               👉 Source Code
             </a>
-            <a
-              href="https://psbharadwaj2002.github.io/Dice_Game_DOM_JS/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://psbharadwaj2002.github.io/Dice_Game_DOM_JS/">
               👉 Deployed URL
             </a>
           </div>
@@ -274,18 +220,10 @@ function ProjectPageComponent() {
               user-friendly interfaces.
             </p>
             <p>Skills: HTML, CSS, SCSS</p>
-            <a
-              href="https://github.com/psbharadwaj2002/food_landing_page.git"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002/food_landing_page.git">
               👉 Source Code
             </a>
-            <a
-              href="https://restaurant-landing-page-front-end.netlify.app/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://restaurant-landing-page-front-end.netlify.app/">
               👉 Deployed URL
             </a>
           </div>
