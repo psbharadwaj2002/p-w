@@ -6,6 +6,7 @@ import meal from "../assests/mealDB.webp";
 import log from "../assests/logAndQuery.webp";
 import dice from "../assests/diceGame.webp";
 import page from "../assests/foodLandingPage.webp";
+import order from "../assests/order_management.png";
 
 function ProjectPageComponent() {
   return (
@@ -44,31 +45,7 @@ function ProjectPageComponent() {
           </div>
         </div>
         <div className="gap"></div>
-        {/*************************************** PROJECT ****************************************/}
-        <div className="project">
-          <div className="image_name">
-            <img src={crypto} alt="project_image" />
-            <p>Crypto Sharing DApp</p>
-          </div>
-          <div className="description">
-            <p>
-              In the developed Order Management Application which is a MERN
-              stack desktop web application, users can effortlessly place new
-              orders, enriching the customer experience. The application also
-              supports the dynamic expansion of the store's offerings, allowing
-              the addition of new items to the inventory. Used Redux for state
-              management and incorporating Ant Design for the user interface,
-              the application delivers a seamless and visually appealing
-              experience.
-            </p>
-            <p>Skills: MERN Stack, Ant Design, SCSS</p>
-            <a href="https://github.com/psbharadwaj2002/crypto_sharing_Dapp.git">
-              👉 Source Code
-            </a>
-            <a href="https://kryptsd.netlify.app/">👉 Deployed URL</a>
-          </div>
-        </div>
-        <div className="gap"></div>
+
         {/*************************************** PROJECT ****************************************/}
         <div className="project">
           <div className="image_name">
@@ -97,6 +74,31 @@ function ProjectPageComponent() {
             <a href="https://steady-pothos-ab81dd.netlify.app/">
               👉 Deployed URL
             </a>
+          </div>
+        </div>
+        <div className="gap"></div>
+        {/*************************************** PROJECT ****************************************/}
+        <div className="project">
+          <div className="image_name">
+            <img src={order} alt="project_image" />
+            <p>Order Management Application</p>
+          </div>
+          <div className="description">
+            <p>
+              In the developed Order Management Application which is a MERN
+              stack desktop web application, users can effortlessly place new
+              orders, enriching the customer experience. The application also
+              supports the dynamic expansion of the store's offerings, allowing
+              the addition of new items to the inventory. Used Redux for state
+              management and incorporating Ant Design for the user interface,
+              the application delivers a seamless and visually appealing
+              experience.
+            </p>
+            <p>Skills: MERN Stack, Ant Design, SCSS</p>
+            <a href="https://github.com/psbharadwaj2002/crypto_sharing_Dapp.git">
+              👉 Source Code
+            </a>
+            <a href="https://kryptsd.netlify.app/">👉 Deployed URL</a>
           </div>
         </div>
         <div className="gap"></div>
