@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36de30ca.css",
-    "main.js": "/static/js/main.52ee6e3a.js",
+    "main.js": "/static/js/main.a8fc687e.js",
     "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
     "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
     "static/media/order_management.png": "/static/media/order_management.f35bbf73cf494010f2f2.png",
@@ -14,10 +14,10 @@
     "static/media/diceGame.webp": "/static/media/diceGame.22f89c99e16730b72854.webp",
     "index.html": "/index.html",
     "main.36de30ca.css.map": "/static/css/main.36de30ca.css.map",
-    "main.52ee6e3a.js.map": "/static/js/main.52ee6e3a.js.map"
+    "main.a8fc687e.js.map": "/static/js/main.a8fc687e.js.map"
   },
   "entrypoints": [
     "static/css/main.36de30ca.css",
-    "static/js/main.52ee6e3a.js"
+    "static/js/main.a8fc687e.js"
   ]
 }

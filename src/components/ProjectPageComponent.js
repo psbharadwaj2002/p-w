@@ -95,10 +95,12 @@ function ProjectPageComponent() {
               experience.
             </p>
             <p>Skills: MERN Stack, Ant Design, SCSS</p>
-            <a href="https://github.com/psbharadwaj2002/crypto_sharing_Dapp.git">
+            <a href="https://github.com/psbharadwaj2002/order_management_application.git">
               👉 Source Code
             </a>
-            <a href="https://kryptsd.netlify.app/">👉 Deployed URL</a>
+            <a href="https://order-management-application.netlify.app/">
+              👉 Deployed URL
+            </a>
           </div>
         </div>
         <div className="gap"></div>
