@@ -211,6 +211,52 @@ function AboutMePageComponent() {
           </div>
         </div>
       </div>
+
+      {/* publication */}
+      <div className="education">
+        <div className="title">
+          <div></div>
+          PUBLICATIONS
+          <div></div>
+        </div>
+        <h5 style={{ color: "wheat" }}>Organizational Behaviour</h5>
+        <div className="study">
+          <div className="small_screens">
+            <h6>
+              <em>
+                The Role of Leadership in Promoting Stress Resilience in the
+                Workplace
+              </em>
+            </h6>
+          </div>
+          <div className="small_screens">
+            <ul>
+              <li>IJPREMS - 28 June 2023</li>
+              <li>
+                Investigated the role of leadership in alleviating workplace
+                stress and enhancing employee resilience.
+              </li>
+              <li>
+                Utilized a mixed-methods approach, blending quantitative surveys
+                and qualitative interviews for a comprehensive analysis.
+              </li>
+              <li>
+                Contributed to academic knowledge in organizational behavior and
+                stress management, referencing reputable sources and
+                publications.
+              </li>
+              <li>
+                <a
+                  href="https://www.ijprems.com/uploadedfiles/paper//issue_6_june_2023/31703/final/fin_ijprems1687919428.pdf"
+                  style={{ color: "green", textDecoration: "none" }}
+                >
+                  Click here to view paper
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
