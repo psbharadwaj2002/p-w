@@ -38,7 +38,7 @@ function FooterComponent() {
         <a
           className="link"
           style={{ textDecoration: "none", color: "black" }}
-          href="https://docs.google.com/document/d/10kJXxxLeAY_kfIn2UwMZnGaq9JsUJPS9NwSOOp83kyM/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1IY1LSNyf3QZXMC2d1ogdjUJkFk4tH4l2/view?usp=sharing"
         >
           RESUME
         </a>
