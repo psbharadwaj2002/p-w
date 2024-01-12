@@ -1,6 +1,10 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
+import {
+  GithubOutlined,
+  LinkedinFilled,
+  PhoneOutlined,
+} from "@ant-design/icons";
 import { Alert } from "antd";
 
 function Contact() {
@@ -65,6 +69,13 @@ function Contact() {
               target="_blank"
             >
               <LinkedinFilled />
+            </a>
+            <a
+              href="tel:+918919667762"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <PhoneOutlined />
             </a>
           </div>
         </div>
