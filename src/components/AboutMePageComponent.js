@@ -134,6 +134,7 @@ function AboutMePageComponent() {
               <li>UI/UX</li>
               <li>Backend Web Development &nbsp;</li>
               <li>Bootstrap</li>
+              <li>Ant Design</li>
               <li>System Design</li>
               <li>Linux</li>
               <li>Git</li>
