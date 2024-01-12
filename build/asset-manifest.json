@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.36de30ca.css",
-    "main.js": "/static/js/main.ec323f85.js",
+    "main.js": "/static/js/main.e2fb87d9.js",
     "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
     "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
     "static/media/order_management.png": "/static/media/order_management.f35bbf73cf494010f2f2.png",
     "static/media/side_image.png": "/static/media/side_image.f3e2ce921efc3286eb9a.png",
     "static/media/desktopNotesApp.png": "/static/media/desktopNotesApp.090f54fa3f57e16064f6.png",
     "static/media/mealDB.webp": "/static/media/mealDB.60ad11b8f32de55051d0.webp",
+    "static/media/message_sent.mp3": "/static/media/message_sent.ea95f8aadf13b3d87c40.mp3",
     "static/media/logAndQuery.webp": "/static/media/logAndQuery.0727edc01f4ba159ab51.webp",
     "static/media/foodLandingPage.webp": "/static/media/foodLandingPage.5063a8b34db9d7da4092.webp",
     "static/media/cryptoSharingDapp.webp": "/static/media/cryptoSharingDapp.01d1d04a0d3123265104.webp",
     "static/media/diceGame.webp": "/static/media/diceGame.22f89c99e16730b72854.webp",
     "index.html": "/index.html",
     "main.36de30ca.css.map": "/static/css/main.36de30ca.css.map",
-    "main.ec323f85.js.map": "/static/js/main.ec323f85.js.map"
+    "main.e2fb87d9.js.map": "/static/js/main.e2fb87d9.js.map"
   },
   "entrypoints": [
     "static/css/main.36de30ca.css",
-    "static/js/main.ec323f85.js"
+    "static/js/main.e2fb87d9.js"
   ]
 }

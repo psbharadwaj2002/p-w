@@ -1,20 +1,35 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import {
   GithubOutlined,
   LinkedinFilled,
   PhoneOutlined,
 } from "@ant-design/icons";
+import { Howl } from "howler";
+
 import { Alert } from "antd";
+import message_sent_sound from "../assests/audio/message_sent.mp3";
 
 function Contact() {
   const form = useRef();
   const [show, setShow] = useState(false);
+  const sound = useRef(null);
 
-  const sendEmail = (e) => {
+  useEffect(() => {
+    sound.current = new Howl({
+      src: [message_sent_sound],
+    });
+  }, []);
+
+  const playAudio = () => {
+    if (sound.current) {
+      sound.current.play();
+    }
+  };
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
+    await emailjs
       .sendForm(
         `${process.env.REACT_APP_SERVICE_ID}`,
         `${process.env.REACT_APP_TEMPLATE_ID}`,
@@ -24,6 +39,7 @@ function Contact() {
       .then(
         (result) => {
           setShow(true);
+          playAudio();
         },
         (error) => {
           console.log(error.text);
@@ -107,6 +123,7 @@ function Contact() {
               </button>
             </div>
           </form>
+          {/* <audio ref={audioPlayer} src={message_sent_sound} /> */}
 
           {show && (
             <Alert
