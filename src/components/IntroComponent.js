@@ -15,13 +15,13 @@ function IntroComponent() {
           >
             <GithubOutlined />
           </a>
-          <a
+          {/* <a
             href="https://leetcode.com/user2955XV/"
             rel="noreferrer noopener"
             target="_blank"
           >
             <img src={leetcode} alt="leetcode" />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
             rel="noreferrer noopener"
