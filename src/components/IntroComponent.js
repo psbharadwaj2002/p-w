@@ -1,6 +1,7 @@
 import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 import side_image from "../assests/side_image.png";
 import React from "react";
+import leetcode from "../assests/icons/leetcode.svg";
 
 function IntroComponent() {
   return (
@@ -13,6 +14,13 @@ function IntroComponent() {
             target="_blank"
           >
             <GithubOutlined />
+          </a>
+          <a
+            href="https://leetcode.com/user2955XV/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src={leetcode} alt="leetcode" />
           </a>
           <a
             href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"

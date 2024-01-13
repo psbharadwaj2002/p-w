@@ -83,6 +83,9 @@ nav .navbar-nav li a:hover {
   transition: transform 0.2s;
   color: white;
 }
+.introComponent .icons a img {
+  width: 18px;
+}
 .introComponent .icons a:hover {
   text-decoration: none;
   transform: scale(1.5);

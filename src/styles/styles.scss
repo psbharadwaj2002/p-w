@@ -113,6 +113,10 @@ nav {
             text-decoration: none;
             transition: transform .2s;
             color: white;
+
+            img {
+                width: 18px;
+            }
         }
 
         a:hover {
