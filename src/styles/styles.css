@@ -466,6 +466,7 @@ nav .navbar-nav li a:hover {
 }
 .contactFrom #form form textarea {
   min-height: 100px;
+  max-height: 400px;
 }
 .contactFrom #form form .button {
   height: 30px;

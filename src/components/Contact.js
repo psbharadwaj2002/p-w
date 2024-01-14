@@ -72,25 +72,13 @@ function Contact() {
             collaborate and shape something extraordinary together.
           </p>
           <div className="icons">
-            <a
-              href="https://github.com/psbharadwaj2002"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://github.com/psbharadwaj2002">
               <GithubOutlined />
             </a>
-            <a
-              href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti">
               <LinkedinFilled />
             </a>
-            <a
-              href="tel:+918919667762"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+            <a href="tel:+918919667762">
               <PhoneOutlined />
             </a>
           </div>

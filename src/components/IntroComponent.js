@@ -8,11 +8,7 @@ function IntroComponent() {
     <div className="introComponent">
       <div className="icons">
         <div>
-          <a
-            href="https://github.com/psbharadwaj2002"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
+          <a href="https://github.com/psbharadwaj2002">
             <GithubOutlined />
           </a>
           {/* <a
@@ -22,11 +18,7 @@ function IntroComponent() {
           >
             <img src={leetcode} alt="leetcode" />
           </a> */}
-          <a
-            href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti">
             <LinkedinFilled />
           </a>
         </div>
