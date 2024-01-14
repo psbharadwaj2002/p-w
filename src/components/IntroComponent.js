@@ -1,7 +1,7 @@
 import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 import side_image from "../assests/side_image.png";
 import React from "react";
-import leetcode from "../assests/icons/leetcode.svg";
+// import leetcode from "../assests/icons/leetcode.svg";
 
 function IntroComponent() {
   return (
