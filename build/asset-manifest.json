@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.41ef3b9c.css",
-    "main.js": "/static/js/main.c30fc76d.js",
+    "main.css": "/static/css/main.8896928e.css",
+    "main.js": "/static/js/main.bd5d601a.js",
     "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
     "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
     "static/media/order_management.png": "/static/media/order_management.f35bbf73cf494010f2f2.png",
@@ -14,11 +14,11 @@
     "static/media/cryptoSharingDapp.webp": "/static/media/cryptoSharingDapp.01d1d04a0d3123265104.webp",
     "static/media/diceGame.webp": "/static/media/diceGame.22f89c99e16730b72854.webp",
     "index.html": "/index.html",
-    "main.41ef3b9c.css.map": "/static/css/main.41ef3b9c.css.map",
-    "main.c30fc76d.js.map": "/static/js/main.c30fc76d.js.map"
+    "main.8896928e.css.map": "/static/css/main.8896928e.css.map",
+    "main.bd5d601a.js.map": "/static/js/main.bd5d601a.js.map"
   },
   "entrypoints": [
-    "static/css/main.41ef3b9c.css",
-    "static/js/main.c30fc76d.js"
+    "static/css/main.8896928e.css",
+    "static/js/main.bd5d601a.js"
   ]
 }

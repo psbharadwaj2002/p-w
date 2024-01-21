@@ -723,4 +723,12 @@ nav .navbar-nav li a:hover {
   .introComponent .img_name #name {
     font-size: 18px;
   }
+  .aboutMePageComponent .skills .skill_container ul li::before {
+    margin-left: -3em;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .aboutMePageComponent .skills .skill_container ul li::before {
+    margin-left: -3.5em;
+  }
 }/*# sourceMappingURL=styles.css.map */
