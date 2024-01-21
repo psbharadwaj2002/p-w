@@ -120,19 +120,19 @@ function AboutMePageComponent() {
           </div>
           <div className="skill">
             <ul>
+              <li>Docker</li>
               <li>JavaScript</li>
               <li>Python</li>
               <li>C</li>
               <li>C++</li>
               <li>OOPS</li>
               <li>DSA</li>
-              <li>SASS</li>
             </ul>
           </div>
           <div className="skill">
             <ul>
               <li>UI/UX</li>
-              <li>Backend Web Development &nbsp;</li>
+              <li>SASS&nbsp;</li>
               <li>Bootstrap</li>
               <li>Ant Design</li>
               <li>System Design</li>
