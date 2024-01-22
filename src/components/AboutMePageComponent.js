@@ -131,7 +131,7 @@ function AboutMePageComponent() {
           </div>
           <div className="skill">
             <ul>
-              <li>UI/UX</li>
+              <li>UI/UX Design</li>
               <li>SASS&nbsp;</li>
               <li>Bootstrap</li>
               <li>Ant Design</li>
