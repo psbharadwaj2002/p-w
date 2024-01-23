@@ -39,6 +39,8 @@ function FooterComponent() {
           className="link"
           style={{ textDecoration: "none", color: "black" }}
           href="https://drive.google.com/file/d/1IY1LSNyf3QZXMC2d1ogdjUJkFk4tH4l2/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           RESUME
         </a>
