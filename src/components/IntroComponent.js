@@ -2,6 +2,7 @@ import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 import side_image from "../assests/side_image.png";
 import React from "react";
 import leetcode from "../assests/icons/leetcode.svg";
+import resume from "../assests/icons/profile.ico";
 
 function IntroComponent() {
   return (
@@ -16,6 +17,13 @@ function IntroComponent() {
             <GithubOutlined />
           </a>
           <a
+            href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkedinFilled />
+          </a>
+          <a
             href="https://leetcode.com/user2955XV/"
             rel="noreferrer noopener"
             target="_blank"
@@ -23,11 +31,11 @@ function IntroComponent() {
             <img src={leetcode} alt="leetcode" />
           </a>
           <a
-            href="https://www.linkedin.com/in/srinivasa-bharadwaj-peddinti"
+            href="https://drive.google.com/file/d/1IY1LSNyf3QZXMC2d1ogdjUJkFk4tH4l2/view?usp=sharing"
+            rel="noreferrer noopener"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            <LinkedinFilled />
+            <img src={resume} alt="leetcode" />
           </a>
         </div>
       </div>

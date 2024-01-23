@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8896928e.css",
-    "main.js": "/static/js/main.b57e700b.js",
+    "main.js": "/static/js/main.c77fc882.js",
     "static/media/shopEase.png": "/static/media/shopEase.b5da75d873781df7d39c.png",
     "static/media/my_image.png": "/static/media/my_image.1040ad403f900625ce6c.png",
     "static/media/order_management.png": "/static/media/order_management.f35bbf73cf494010f2f2.png",
@@ -13,13 +13,14 @@
     "static/media/foodLandingPage.webp": "/static/media/foodLandingPage.5063a8b34db9d7da4092.webp",
     "static/media/cryptoSharingDapp.webp": "/static/media/cryptoSharingDapp.01d1d04a0d3123265104.webp",
     "static/media/diceGame.webp": "/static/media/diceGame.22f89c99e16730b72854.webp",
+    "static/media/profile.ico": "/static/media/profile.0c4ca03223ceafb318c7.ico",
     "index.html": "/index.html",
     "static/media/leetcode.svg": "/static/media/leetcode.3c8231786418c43ceca0cdad4200b723.svg",
     "main.8896928e.css.map": "/static/css/main.8896928e.css.map",
-    "main.b57e700b.js.map": "/static/js/main.b57e700b.js.map"
+    "main.c77fc882.js.map": "/static/js/main.c77fc882.js.map"
   },
   "entrypoints": [
     "static/css/main.8896928e.css",
-    "static/js/main.b57e700b.js"
+    "static/js/main.c77fc882.js"
   ]
 }
