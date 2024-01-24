@@ -34,6 +34,8 @@ function AboutMePageComponent() {
                 {" "}
                 <a
                   href="https://drive.google.com/file/d/1XkQ2Jc1VBqBx-4GA5dXPHK3tdrsMMWCb/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "green", textDecoration: "none" }}
                 >
                   Click here to view certificate
@@ -63,6 +65,8 @@ function AboutMePageComponent() {
                 {" "}
                 <a
                   href="https://drive.google.com/file/d/1mDzbBiSIYp7-0tSp-Lvd09I8Ir_z_yc_/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "green", textDecoration: "none" }}
                 >
                   Click here to view certificate
@@ -91,6 +95,8 @@ function AboutMePageComponent() {
                 {" "}
                 <a
                   href="https://drive.google.com/file/d/1erylaod77OVRbK7SFeOu8FMNxN3MNY8b/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "green", textDecoration: "none" }}
                 >
                   Click here to view certificate
