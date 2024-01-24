@@ -171,6 +171,8 @@ function AboutMePageComponent() {
                 {" "}
                 <a
                   href="https://drive.google.com/file/d/1vcNYebONCATdDrQLhaYEh3wZITFepoMn/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "green", textDecoration: "none" }}
                 >
                   Click here to view certificate
@@ -203,6 +205,8 @@ function AboutMePageComponent() {
               <li>
                 <a
                   href="https://drive.google.com/file/d/1q1II3-SzrLgD2f2EAhZ0pRJ8sf18jHxn/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "green", textDecoration: "none" }}
                 >
                   Click here to view certificate
@@ -249,6 +253,8 @@ function AboutMePageComponent() {
               <li>
                 <a
                   href="https://www.ijprems.com/uploadedfiles/paper//issue_6_june_2023/31703/final/fin_ijprems1687919428.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "green", textDecoration: "none" }}
                 >
                   Click here to view paper
