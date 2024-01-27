@@ -58,7 +58,8 @@ function FooterComponent() {
       <div>
         <p>
           {" "}
-          &#169; 2024 Copyright : <b>Srinivasa Bharadwaj Peddinti</b>
+          {/* &#169; 2024 Copyright : <b>Srinivasa Bharadwaj Peddinti</b> */}
+          By Srinivasa Bharadwaj Peddinti
         </p>
       </div>
     </div>
