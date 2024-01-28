@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 function ProjectPageComponent() {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 3000 });
   }, []);
   return (
     <div className="projectsPageComponent">
@@ -23,7 +23,7 @@ function ProjectPageComponent() {
       </div>
       <div className="projects">
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-right">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={crypto} alt="project_image" />
             <p>Crypto Sharing DApp</p>
@@ -62,7 +62,7 @@ function ProjectPageComponent() {
         <div className="gap"></div>
 
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-left">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={shop} alt="project_image" />
             <p>ShopEase</p>
@@ -101,7 +101,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-right">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={order} alt="project_image" />
             <p>Order Management Application</p>
@@ -136,7 +136,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-left">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={log} alt="project_image" />
             <p>Log Ingestor and Query Interface</p>
@@ -169,7 +169,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-right">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={notes} alt="project_image" />
             <p>Desktop Notes App (Context API)</p>
@@ -201,7 +201,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-left">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={notes} alt="project_image" />
             <p>Desktop Notes App (Redux)</p>
@@ -235,7 +235,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-right">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={meal} alt="project_image" />
             <p>Meal DB</p>
@@ -273,7 +273,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-left">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={dice} alt="project_image" />
             <p>Dice Game</p>
@@ -309,7 +309,7 @@ function ProjectPageComponent() {
         </div>
         <div className="gap"></div>
         {/*************************************** PROJECT ****************************************/}
-        <div className="project" data-aos="fade-right">
+        <div className="project" data-aos="zoom-in">
           <div className="image_name">
             <img src={page} alt="project_image" />
             <p>Restaurant Landing Page</p>

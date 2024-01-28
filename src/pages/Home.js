@@ -11,20 +11,26 @@ import "aos/dist/aos.css";
 function Home() {
   useEffect(() => {
     window.scroll(0, 0);
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 3000 });
   }, []);
   return (
     <div>
       <Navbar />
-      <div data-aos="fade-up">
+      <div data-aos="fade-in">
         <IntroComponent />
       </div>
-      <AboutComopnent />
+      <div data-aos="flip-right">
+        <AboutComopnent />
+      </div>
       <div data-aos="zoom-in">
         <ProjectComponent />
       </div>
-      <Contact />
-      <FooterComponent />
+      <div data-aos="fade-in">
+        <Contact />
+      </div>
+      <div>
+        <FooterComponent />
+      </div>
     </div>
   );
 }
