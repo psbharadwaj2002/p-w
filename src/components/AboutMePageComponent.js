@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function AboutMePageComponent() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
   return (
     <div className="aboutMePageComponent">
-      <div className="education">
+      <div className="education" data-aos="zoom-in">
         <div className="title">
           <div></div>
           EDUCATION
@@ -106,7 +111,7 @@ function AboutMePageComponent() {
           </div>
         </div>
       </div>
-      <div className="skills">
+      <div className="skills" data-aos="zoom-in">
         <div className="title">
           <div></div>
           SKILLS
@@ -149,7 +154,7 @@ function AboutMePageComponent() {
           </div>
         </div>
       </div>
-      <div className="education">
+      <div className="education" data-aos="zoom-in">
         <div className="title">
           <div></div>
           EXPERIENCE
@@ -188,7 +193,7 @@ function AboutMePageComponent() {
           </div>
         </div>
       </div>
-      <div className="education">
+      <div className="education" data-aos="zoom-in">
         <div className="title">
           <div></div>
           CERTIFICATIONS
@@ -224,7 +229,7 @@ function AboutMePageComponent() {
       </div>
 
       {/* publication */}
-      <div className="education">
+      <div className="education" data-aos="zoom-in">
         <div className="title">
           <div></div>
           PUBLICATIONS

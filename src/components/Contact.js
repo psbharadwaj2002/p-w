@@ -6,7 +6,8 @@ import {
   PhoneOutlined,
 } from "@ant-design/icons";
 import { Howl } from "howler";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Alert } from "antd";
 import message_sent_sound from "../assests/audio/message_sent.mp3";
 
@@ -19,6 +20,7 @@ function Contact() {
     sound.current = new Howl({
       src: [message_sent_sound],
     });
+    AOS.init({ duration: 3000 });
   }, []);
 
   const playAudio = () => {
@@ -52,7 +54,7 @@ function Contact() {
   };
 
   return (
-    <div id="contactFrom" className="contactFrom">
+    <div id="contactFrom" className="contactFrom" data-aos="zoom-in">
       <div className="title">
         <div></div>
         CONTACT

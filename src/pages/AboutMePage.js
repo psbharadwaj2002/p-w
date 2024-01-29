@@ -15,9 +15,7 @@ function AboutMePage() {
     <div>
       <Navbar />
       <AboutMePageComponent />
-      <div data-aos="zoom-in">
-        <Contact />
-      </div>
+      <Contact />
       <FooterComponent />
     </div>
   );

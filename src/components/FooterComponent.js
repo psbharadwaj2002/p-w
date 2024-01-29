@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function FooterComponent() {
   const [click, setClick] = useState(0);
@@ -7,6 +9,10 @@ function FooterComponent() {
   useEffect(() => {
     window.scroll({ top: 0, left: 0, behavior: "smooth" });
   }, [click]);
+
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
 
   return (
     <div className="footer">

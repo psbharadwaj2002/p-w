@@ -19,15 +19,13 @@ function Home() {
       <div data-aos="fade-in">
         <IntroComponent />
       </div>
-      <div data-aos="flip-right">
+      <div data-aos="zoom-in">
         <AboutComopnent />
       </div>
       <div data-aos="zoom-in">
         <ProjectComponent />
       </div>
-      <div data-aos="fade-in">
-        <Contact />
-      </div>
+      <Contact />
       <div>
         <FooterComponent />
       </div>
