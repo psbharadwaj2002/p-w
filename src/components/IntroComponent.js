@@ -31,7 +31,7 @@ function IntroComponent() {
             <img src={leetcode} alt="leetcode" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1IY1LSNyf3QZXMC2d1ogdjUJkFk4tH4l2/view?usp=sharing"
+            href="https://drive.google.com/file/d/17_bujWzmU61z4kOQTb3BClzTZaAy4ClJ/view?usp=sharing"
             rel="noreferrer noopener"
             target="_blank"
           >
